@@ -19,7 +19,7 @@ public class ShoppingSystemController {
 		// create two customers
 		Customer firstCustomer = customerService.createCustomer("first.customer@email.com", "first", "last", "0704418962");
 		Customer secondCustomer = customerService.createCustomer("second.customer@email.com", "second", "customer", "0718962121");
-
+// test
 		//create product
 		Product productOne = productService.createProduct("Milk Powder",250.0,2.50,"Unilever");
 		
